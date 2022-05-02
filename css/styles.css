@@ -1,0 +1,229 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center ;
+    margin: 0;
+}
+.card-body a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* Navigation Bar */
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem; 
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+/* Title Section */
+
+#hi{
+    color: red;
+    font-size: 100px;
+    
+}
+#exclamationn-symbol{
+    color: gold;
+    font-weight: 700;
+
+    font-size: 3.5rem;
+}
+#my-name{
+    color: gold;
+    font-weight: 300;
+    font-size: 4.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+@media  (min-width:1000px) {
+    #title{
+        color: #fff;
+        height: 47rem;
+    }
+    
+    .image-moon{
+        width: 60%;
+        padding-top: 10%;
+    }
+    
+    .image-division{
+        text-align: end;
+    }
+    .name-heading{
+        line-height: 1.5;
+        font-size: 4rem;
+    }
+    .profession-heading{
+        line-height: 1.5;
+        font-size: 2.5rem;
+    }
+    .name-division{
+        margin-top: 15%;
+        text-align: end;
+    }
+}
+
+
+@media  (min-width: 400px) and (max-width:1000px){
+    #title{
+        color: #fff;
+        
+    }
+
+    .name-division{
+        margin: 150px auto 10%;
+        text-align: center;
+    }
+
+    .image-moon{
+        width: 35%;
+        padding-bottom: 30%;
+    }
+}
+
+/* Projects Section */
+#projects{ 
+    background-color: #363062;
+    color: #fff;
+    margin-top: 20%;
+    padding-bottom: 10%;
+}
+
+.project-heading{
+   padding-top: 12%;
+    padding-bottom: 1%;
+    color: #FF6363;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.project-subheading{
+    color: #FF6363;
+    padding-bottom: 5%;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+.project-row{
+    margin-top: 10%;
+    padding-top: 10%;
+}
+
+.card{
+    margin: 10% 5% 5%;
+    color: #EDE6DB;
+}
+
+
+/* Skills Section */
+#skills{
+    padding-bottom: 10%;
+}
+.skill-image{
+    width: 20%;
+}
+
+.skills-card .card{
+    color: black;
+}
+
+
+/* Footer Section */
+
+#footer  {
+   
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.social-icons{
+    margin:50px 10px 10px 20px;
+}
+
+.contact-info{
+    text-align: center ;
+   color: wheat;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  
+}
+.contact-info a{
+    text-decoration: none;
+    color: wheat;
+}
+.contact-info a:hover{
+    color: aqua;
+}
+.git-hub{
+    color: white;
+}
+.instagram{
+    color: #cd486b;
+}
+
+.email{
+    color: #FF6363;
+}
+
+.social-icons:hover{
+    color: gold;
+}
+
+/* About page */
+
+
+@media (min-width: 400px) and (max-width:1000px){
+    #aboutpage{
+        color: rgb(246, 246, 246);
+        font-size: 2px;   
+        text-align: left;
+       
+    }
+    #aboutpage h1 {
+        font-size: 1rem;
+    }
+    #aboutpage h3 {
+        font-size: 1rem;
+    }
+    #aboutpage tr {
+        font-size: 1rem;
+    }
+    #aboutpage th {
+        font-size: 1rem;
+    }
+    #aboutpage td {
+        font-size: 1rem;
+    }
+    #aboutpage h1 {
+        font-size: 1rem;
+    }
+    #aboutpage li {
+        font-size: 1rem;
+    }
+    #aboutpage a{
+        font-size: 1rem;
+    }
+    #aboutpage p{
+        font-size: 1rem;
+    }
+    
+}
+
+@media  (min-width:1000px) {
+    #aboutpage{
+        color: rgb(245, 245, 245);
+        text-align: left;
+        
+    }
+}
+
+
