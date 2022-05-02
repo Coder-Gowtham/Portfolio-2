@@ -73,7 +73,7 @@ body{
 }
 
 
-@media  (min-width: 400px) and (max-width:1000px){
+@media  (max-width:1000px){
     #title{
         color: #fff;
         
@@ -85,7 +85,7 @@ body{
     }
 
     .image-moon{
-        width: 35%;
+        width: 250px;
         padding-bottom: 30%;
     }
 }
